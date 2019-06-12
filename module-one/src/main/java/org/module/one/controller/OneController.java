@@ -20,6 +20,6 @@ public class OneController {
 	@RequestMapping("/test")
 	@ResponseBody
 	public String cc() {
-		return "my test success666...";
+		return "my test success...";
 	}
 }
