@@ -16,4 +16,10 @@ public class OneController {
 	public String msg(String msg) {
 		return twoService.msg(msg);
 	}
+
+	@RequestMapping("/test")
+	@ResponseBody
+	public String cc() {
+		return "test success...";
+	}
 }
