@@ -21,6 +21,6 @@ public class OneController {
 	@ResponseBody
 	public String cc() {
 
-		return "test success...dev123";
+		return "test success...dev123+prd";
 	}
 }
